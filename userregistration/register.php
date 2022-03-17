@@ -30,6 +30,7 @@ $conn->close();
         background: radial-gradient(circle, rgba(55,135,210,1) 0%, rgba(84,58,246,1) 100%);
       }
     </style>
+        <link rel="shortcut icon" type="image/png" href="../pills.png"/>
   </head>
   <body>
         <!-- Navbar -->
