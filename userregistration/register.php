@@ -27,7 +27,7 @@ $conn->close();
     <style>
       .card {
         background: rgb(55,135,210);
-        background: radial-gradient(circle, rgba(55,135,210,1) 0%, rgba(84,58,246,1) 100%);
+        background: radial-gradient(circle, rgba(26,171,194,1) 0%, rgba(24,162,184,1) 100%);
       }
     </style>
         <link rel="shortcut icon" type="image/png" href="../pills.png"/>
@@ -79,7 +79,7 @@ $conn->close();
       <input type="checkbox" id="onthouden" name="onthouden" value="onthouden">
       <label for="onthouden">Mijn gegevens onthouden</label>
       </div>
-      <button type="button" class="btn btn-light">Aanmaken</button>
+      <button type="button" class="btn btn-light">Aanmelden</button>
       </form>
   </div>
   </div>
@@ -106,7 +106,7 @@ $conn->close();
           <label for="Email"></label>
           <input type="Email" class="form-control" type="hidden" name="Email" placeholder="Email">
       </div>
-      <button type="button" class="btn btn-light">Aanmaken</button>
+      <button type="button" class="btn btn-light">Registreren</button>
       </form>
   </div>
   </div>

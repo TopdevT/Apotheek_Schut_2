@@ -11,6 +11,7 @@
   </head>
   <body>
     <!-- Navbar -->
+    <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light d-flex justify-content-center">
     <div class="d-flex justify-content-center">
       <a class="navbar-brand" href="index.php">Apotheek Schut</a>
@@ -35,7 +36,7 @@
         </div>
         </div>
       </nav>
-
+    </header>
     <!-- Slideshow -->
       <div class="row d-flex justify-content-around mx-5">
         <div class="col-8-lg mt-5">
@@ -68,27 +69,33 @@
         </div>
       </div>
     </div>
+    <!-- plain between -->
+    <div class="p-5 mt-5 mb-0 text-center bg-light shadow-sm">
+    <h1 class="mb-3">Apotheek Schut</h1>
+    <p class="mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur suscipit eu massa varius suscipit. Proin bibendum libero id lectus eleifend, at sodales mauris faucibus. Proin congue sollicitudin libero scelerisque aliquet. Fusce at orci lobortis, interdum enim eu, efficitur est. Vestibulum ut orci vel nibh ornare mattis. Integer convallis nibh vitae tellus scelerisque tristique. In tincidunt cursus pretium. Suspendisse mattis dolor et eros consequat, nec facilisis lorem cursus</p>
+    <a class="btn btn-info" href="" role="button">Nu aanmelden</a>
+  </div>
       <!-- Cards (shortcuts)-->
-      <div class="row d-flex justify-content-around my-5 mx-5">
-      <div class="card col-4-sm text-center my-5 shadow-sm" style="width:28rem;">
-        <img src="./img/help.jpeg" class="card-img-top" alt="">
-        <div class="card-title text-center mb-0 mt-4"><h4>Service</h4></div>
+      <div class="row d-flex justify-content-around mb-5 mt-3 mx-5">
+      <div class="card col-4-sm text-center my-5 shadow-sm" style="width:27rem;">
+        <img src="./img/help.jpeg" class="card-img-top" style="height:250px;" alt="">
+        <div class="card-title text-center mb-0 mt-3"><h5>Service</h5></div>
         <div class="card-body">
           <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur suscipit eu massa varius suscipit. Proin bibendum libero id lectus eleifend, at sodales mauris faucibus. Proin congue sollicitudin libero scelerisque aliquet. Fusce at orci lobortis, interdum enim eu, efficitur est. Vestibulum ut orci vel nibh ornare mattis. Integer convallis nibh vitae tellus scelerisque tristique. In tincidunt cursus pretium. Suspendisse mattis dolor et eros consequat, nec facilisis lorem cursus.</p>
           <a class="btn btn-info btn-md mx-2 my-2 shadow-sm" href="service.php" role="button">Lees meer</a>
         </div>
       </div>
-      <div class="card col-4-sm text-center my-5 shadow-sm" style="width: 27rem;">
-        <img src="https://www.kidsweek.nl/sites/default/files/styles/node_image/public/pills-384846_640.jpg?itok=RURjGQyn" class="card-img-top" alt="">
-        <div class="card-title text-center mb-0 mt-4"><h4>Medicijn overzicht</h4></div>
+      <div class="card col-4-sm text-center my-5 shadow-sm" style="width:27rem;">
+        <img src="https://www.kidsweek.nl/sites/default/files/styles/node_image/public/pills-384846_640.jpg?itok=RURjGQyn" style="height:250px;" class="card-img-top" alt="">
+        <div class="card-title text-center mb-0 mt-3"><h5>Medicijn overzicht</h5></div>
         <div class="card-body">
           <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur suscipit eu massa varius suscipit. Proin bibendum libero id lectus eleifend, at sodales mauris faucibus. Proin congue sollicitudin libero scelerisque aliquet. Fusce at orci lobortis, interdum enim eu, efficitur est. Vestibulum ut orci vel nibh ornare mattis. Integer convallis nibh vitae tellus scelerisque tristique. In tincidunt cursus pretium. Suspendisse mattis dolor et eros consequat, nec facilisis lorem cursus.</p>
           <a class="btn btn-info btn-md mx-2 my-2 shadow-sm" href="voorlichting.php" role="button">Lees meer</a>
         </div>
         </div>
-        <div class="card col-4-sm text-center my-5 shadow-sm" style="width: 27rem;">
-          <img src="https://www.marketingtribune.nl/content/weblog/2020/10/maak-je-merk-zo-persoonlijk-mogelijk/47720659_l.jpg" class="card-img-top" alt="">
-          <div class="card-title text-center mb-0 mt-4"><h4>Mijn APO</h4></div>
+        <div class="card col-4-sm text-center my-5 shadow-sm" style="width:27rem;">
+          <img src="https://www.marketingtribune.nl/content/weblog/2020/10/maak-je-merk-zo-persoonlijk-mogelijk/47720659_l.jpg" style="height:250px;" class="card-img-top" alt="">
+          <div class="card-title text-center mb-0 mt-3"><h5>Mijn APO</h5></div>
           <div class="card-body">
             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur suscipit eu massa varius suscipit. Proin bibendum libero id lectus eleifend, at sodales mauris faucibus. Proin congue sollicitudin libero scelerisque aliquet. Fusce at orci lobortis, interdum enim eu, efficitur est. Vestibulum ut orci vel nibh ornare mattis. Integer convallis nibh vitae tellus scelerisque tristique. In tincidunt cursus pretium. Suspendisse mattis dolor et eros consequat, nec facilisis lorem cursus.</p>
             <a class="btn btn-info btn-md mx-2 my-2 shadow-sm" href="./userregistration/register.php" role="button">Lees meer</a>
